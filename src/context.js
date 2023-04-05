@@ -99,7 +99,7 @@ const AppProvider = ({ children }) => {
   const forgotPassword = async (email) => {
     try {
       await sendPasswordResetEmail(auth, email, {
-        url: `https://small-react-web-app.netlify.app/signin`,
+        url: `https://small-react-app.vercel.app/signin`,
       });
       setMessage('Check your email for further instructions');
       setError('');
