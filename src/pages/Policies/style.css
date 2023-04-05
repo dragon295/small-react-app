@@ -1,0 +1,47 @@
+.policies-container-1,
+.policies-container-2 {
+  padding: 20px 0;
+}
+
+.policies-container-1 ul,
+.policies-container-1 ol,
+.policies-container-2 ul,
+.policies-container-2 ol {
+  padding-left: 40px;
+}
+
+.policies-container-1 h6,
+.policies-container-2 h6 {
+  text-transform: capitalize;
+}
+
+.policies-container-2 {
+  background-color: rgb(11, 11, 11);
+  color: white;
+}
+
+a {
+  color: #fe59d7;
+}
+
+table {
+  border-spacing: 0 !important;
+}
+
+.table-bordered {
+  border: 1px solid #494a4f;
+}
+
+.table-bordered td {
+  border: 1px solid #494a4f;
+  padding: 15px;
+}
+
+.table-bordered td:first-child {
+  text-align: center;
+}
+
+.table-bordered th {
+  border: 1px solid #494a4f;
+  padding: 10px;
+}
